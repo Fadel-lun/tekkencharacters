@@ -1,0 +1,163 @@
+
+body{
+
+    background-image:linear-gradient(140deg, black 45%, rgb(14, 2, 128));
+}
+
+// ganti bg warna pink
+.pink{
+    background-image:linear-gradient(140deg, rgb(207, 15, 182)10%, rgb(0, 0, 0));
+}
+.navbar{
+        button{
+            color: white;
+            border: 1px solid white;
+        }
+}
+
+.container-md{
+    margin: 80px 0;
+    color: whitesmoke;
+    .row{
+        display: flex;
+        justify-content: first baseline;
+       
+        .col-6{
+            margin-top: 20px;
+            .card{
+
+                border: 2px solid rgb(39, 0, 212);
+                border-radius: 10%;
+                overflow: hidden;
+                background-color: rgb(39, 0, 212);
+            }
+            img{
+                height: 220px;
+            }
+            .card:hover{
+                background-color: rgb(206, 0, 0);
+                border: 2px solid red;
+                cursor: po;
+            }
+    
+        }
+    }
+}
+
+.modal-dialog{
+    color: black;
+    .modal-body{
+        overflow: hidden;
+        nav{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: auto;      
+                 
+            img{
+                margin-bottom: 20px;
+                height: 200px;
+                border-radius: 4%;
+                box-shadow: 3px 3px 8px black;
+            }
+        }
+        main{
+            overflow: auto;
+            font-size: 12px;
+        }
+    }
+}
+
+// tampilan destkop
+@media (min-width: 992px){
+    .navbar{
+        .nav-link{
+            margin-right: 20px;
+            // color: black;
+        }
+        button{
+            color: rgb(231, 231, 231);
+            border: 2px solid whitesmoke;
+            border-radius: 50px;
+        }
+        button:hover{
+            color: black;
+            background-color: whitesmoke;
+        }
+    }
+
+    .container-md{
+        width: 85vmax;
+        margin: 100px auto;
+        padding: 30px;
+        border:2px solid blue;
+        border-radius: 30px;
+        color: whitesmoke;
+
+
+        // color: white;
+        .row{
+            display: flex;
+            justify-content: first baseline;
+            .col-6{
+                margin: 20px 0 ;
+                .card{
+                    width: 12rem;
+                    border: 2px solid rgb(39, 0, 212);
+                    border-radius: 10%;
+                    overflow: hidden;
+                    background-color: rgb(39, 0, 212);
+                }
+                .card-img-top{
+                    height:250px;
+                    cursor: pointer;
+                }
+                .card:hover{
+                    background-color: rgb(206, 0, 0);
+                    border: 2px solid red;
+                }
+        
+            }
+        }
+        
+        .modal-dialog{
+            color: rgb(14, 13, 13);
+            .modal-body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                // background-color: rgb(53, 53, 53);    
+                overflow: hidden;
+
+                nav{
+                    flex: 1;
+                    height: 60vmin;
+                    // background-color: brown;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    overflow: auto;
+                    img{
+                        height:280px;
+                        border-radius: 4%;
+                        box-shadow: 3px 3px 8px black;
+                    }
+                }
+                main{
+                    flex: 1.4;
+                    height: 60vmin;
+                    padding-left: 20px;
+                    overflow: auto;
+                    font-size: 15px;
+                    font-weight: 200;
+                }
+            }
+        }
+
+    
+    }
+
+    }
+
+

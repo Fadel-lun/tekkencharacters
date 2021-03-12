@@ -1,0 +1,182 @@
+body {
+  background-image: linear-gradient(140deg, black 45%, #0e0280);
+}
+
+.pink {
+  background-image: linear-gradient(140deg, #cf0fb6 10%, black);
+  transition: 0.5s;
+}
+
+.navbar button {
+  color: white;
+  border: 1px solid white;
+}
+
+.container-md {
+  margin: 80px 0;
+  color: whitesmoke;
+}
+
+.container-md .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: first baseline;
+      -ms-flex-pack: first baseline;
+          justify-content: first baseline;
+}
+
+.container-md .row .col-6 {
+  margin-top: 20px;
+  /* height: 260px; */
+  /* width: 100px; */
+}
+
+.container-md .row .col-6 .card {
+  border: 2px solid #2700d4;
+  border-radius: 10%;
+  overflow: hidden;
+  background-color: #2700d4;
+}
+
+.container-md .row .col-6 img {
+  height: 250px;
+}
+
+.container-md .row .col-6 .card:hover {
+  background-color: #ce0000;
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+.modal-dialog {
+  color: black;
+}
+
+.modal-dialog .modal-body {
+  overflow: hidden;
+}
+
+.modal-dialog .modal-body nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: auto;
+}
+
+.modal-dialog .modal-body nav img {
+  margin-bottom: 20px;
+  height: 200px;
+  border-radius: 4%;
+  -webkit-box-shadow: 3px 3px 8px black;
+          box-shadow: 3px 3px 8px black;
+}
+
+.modal-dialog .modal-body main {
+  overflow: auto;
+  font-size: 12px;
+}
+
+
+
+@media (min-width: 992px) {
+  .navbar .nav-link {
+    margin-right: 20px;
+  }
+  .navbar button {
+    color: #e7e7e7;
+    border: 2px solid whitesmoke;
+    border-radius: 50px;
+  }
+  .navbar button:hover {
+    color: black;
+    background-color: whitesmoke;
+  }
+  .container-md {
+    width: 85vmax;
+    margin: 100px auto;
+    padding: 30px;
+    border: 2px solid blue;
+    border-radius: 30px;
+    color: whitesmoke;
+  }
+  .container-md .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: first baseline;
+        -ms-flex-pack: first baseline;
+            justify-content: first baseline;
+  }
+  .container-md .row .col-6 {
+    margin: 20px 0;
+  }
+  .container-md .row .col-6 .card {
+    width: 12rem;
+    border: 2px solid #2700d4;
+    border-radius: 10%;
+    overflow: hidden;
+    background-color: #2700d4;
+  }
+  .container-md .row .col-6 .card-img-top {
+    height: 250px;
+    cursor: pointer;
+  }
+  .container-md .row .col-6 .card:hover {
+    background-color: #ce0000;
+    border: 2px solid red;
+  }
+  .container-md .modal-dialog {
+    color: #0e0d0d;
+  }
+  .container-md .modal-dialog .modal-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow: hidden;
+  }
+  .container-md .modal-dialog .modal-body nav {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    height: 60vmin;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow: auto;
+  }
+  .container-md .modal-dialog .modal-body nav img {
+    height: 280px;
+    border-radius: 4%;
+    -webkit-box-shadow: 3px 3px 8px black;
+            box-shadow: 3px 3px 8px black;
+  }
+  .container-md .modal-dialog .modal-body main {
+    -webkit-box-flex: 1.4;
+        -ms-flex: 1.4;
+            flex: 1.4;
+    height: 60vmin;
+    padding-left: 20px;
+    overflow: auto;
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
